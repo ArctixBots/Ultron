@@ -3,9 +3,9 @@
  Licensed under the  GPL-3.0 License;
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
- * @project_name : Secktor-Md
- * @author : GasComIT <https://github.com/GasComIT>
- * @description : Secktor,A Multi-functional whatsapp bot.
+ * @project_name : Ultron
+ * @author : GasComIT <https://github.com/ArctixBots>
+ * @description : Ultron, A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/
 
@@ -20,7 +20,7 @@ cmd({
     async(Void, citel,text,{ isCreator }) => {
    if (!isCreator) return citel.reply(tlang().owner)
             const { exec } = require("child_process")
-            citel.reply('Restarting Secktor...')
+            citel.reply('Restarting Ultron...')
             exec('pm2 restart all')
     }
 );

@@ -60,7 +60,7 @@ const util = require("util");
                       thumbnail: log0,
                       mediaType: 2,
                       mediaUrl: '',
-                      sourceUrl: 'https://github.com/gascomit/secktor-md',
+                      sourceUrl: 'https://github.com/ArctixBots/Ultron',
                   },
               },
           };

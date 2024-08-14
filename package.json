@@ -6,10 +6,10 @@
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
-                "stop": "pm2 stop secktor"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name ultron",
+                "stop": "pm2 stop ultron"
                 },
-               "author": "GasComIT",
+               "author": "Mugwe Jnr",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -66,10 +66,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/GasComIT/Secktor-Md.git"
+                 "url": "git+https://github.com/ArctixBots/Ultron.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/GasComIT/Secktor-Md/issues"
+                 "url": "https://github.com/ArctixBots/Ultron/issues"
                   },
-                 "homepage": "https://github.com/GasComIT/Secktor-Md#readme"
+                 "homepage": "https://github.com/ArctixBots/Ultron#readme"
                   }

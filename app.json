@@ -1,15 +1,15 @@
 {
-  "name": "Secktor-Md",
+  "name": "Ultron",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "repository": "https://github.com/royce-b/Secktor-Md",
-  "logo": "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "SecktorBot", "theme bot","multi device"],
+  "repository": "https://github.com/ArctixBots/Ultron",
+  "logo": "https://i.ibb.co/FYSQ2d7/Multidevice.png",
+  "keywords": ["ultron", "bot", "whatsapp bot", "theme bot","multi device"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Royce Bob"
+      "value": "Mugwe Jnr"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
@@ -38,7 +38,7 @@
        "value": "254718241545"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://secktorbot.herokuapp.com/session "
+    "description": "Please put your SESSION_ID here,if you don't have visit https://ultron.vercel.app "
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
@@ -54,8 +54,8 @@
     "description": "A secret String for Mongodb Connection.(Required)"
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are SECKTOR,ZEROTWO,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "SECKTOR"
+    "description": "Put the theme name you want to use. Available themes are ULTRON,LYDIAH,ARCTIX,MARIKA and many more..",
+     "value": "ULTRON"
   },
      "HEROKU_API_KEY": {
     "description": "Enter your Heroku api key."
@@ -76,7 +76,7 @@
   },
   "PACK_INFO": {
     "description": "Put packname;authorname.",
-     "value": "Secktor;Royce",
+     "value": "Ultron;United DG",
      "required": false
        
     

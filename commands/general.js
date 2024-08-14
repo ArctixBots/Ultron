@@ -17,7 +17,7 @@ cmd({
         pattern: "chat",
         desc: "chat with an AI",
         category: "general",
-        use: '<Hii,Secktor>',
+        use: '<Hii,Ultron>',
         filename: __filename,
     },
     async(Void, citel,text) => {
@@ -54,14 +54,14 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/GasComIT/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/GasComIT/Ultron')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* GitHub.com/GasComIT/Secktor-Md
-*Group:* https://chat.whatsapp.com/LggW0xFd9095WPyknl791f
+*🍁 Repo:* https://github.com/ArctixBots/Ultron
+*Group:* https://chat.whatsapp.com/BgDWgdVAbHZK4ZoJ4MPTcy
 *Deploy Your Own:*-
- SecktorBot.tech/youtube`
+ ArctixBots.tech/youtube`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -69,12 +69,12 @@ cmd({
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Ultron-Secktor",
+                    title: "Ultron-AI",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
                     mediaUrl: '',
-                    sourceUrl: `https://GitHub.com/GasComIT/Secktor-Md`,
+                    sourceUrl: `https://github.com/ArctixBots/Ultron`,
                 },
             },
         };

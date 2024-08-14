@@ -256,13 +256,13 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by GasComIT.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `>I'm active and working propery, Ultron bot - developed by United Data Group.`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
 ${alivemessage}
 
-*Version:-* _0.0.6_
+*Version:-* _1.0.1_
 *Uptime:-* _${runtime(process.uptime())}_
 *Owner:-* _${Config.ownername}_
 *Branch:-* _${Config.BRANCH}_
